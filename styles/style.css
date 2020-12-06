@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap'); */
 
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
-    /* color: #7b7a7a; */
+    font-family: 'Archivo Narrow', sans-serif;    /* color: #7b7a7a; */
+    color: rgb(83, 138, 9);
 }
 
 ul {
@@ -13,7 +13,9 @@ ul {
 
 a {
     text-decoration: none;
-    color: #7b7a7a;
+    /* color: #7b7a7a; */
+    color: rgb(83, 138, 9);
+
 }
 
 .navbar-brand img {
