@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
-    color: #7b7a7a;
+    /* color: #7b7a7a; */
 }
 
 ul {
@@ -41,6 +41,12 @@ a {
     color: #ffffff;
     font-weight: 600;
     text-align: center;
+}
+body {
+    background-image: url(../img/mr-white-pattern.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: 560px;
 }
 
 .bin img {
