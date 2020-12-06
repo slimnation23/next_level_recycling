@@ -72,3 +72,13 @@ footer {
     background: #ededed;
     border-top: 1px solid #aaaaaa;
 }
+
+.get_quote {
+    display: none;
+}
+
+@media (max-width: 991.98px) {
+    .get_quote {
+        display: flex;
+    }
+}
