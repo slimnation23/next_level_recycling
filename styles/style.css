@@ -73,16 +73,6 @@ footer {
     border-top: 1px solid #aaaaaa;
 }
 
-.get_quote {
-    display: none;
-}
-
-@media (max-width: 991.98px) {
-    .get_quote {
-        display: flex;
-    }
-}
-
 @media (max-width: 450px) {
     .navbar-brand img {
         max-width: 100px;
