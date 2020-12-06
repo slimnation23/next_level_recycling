@@ -23,14 +23,6 @@ a {
     width: 100%;
 }
 
-.nav-link {
-    color: rgb(83, 138, 9) !important;
-}
-
-.navbar-light .navbar-nav .active>.nav-link {
-    font-weight: 600;
-}
-
 .header {
     background: url(../img/recycling-materials-we-buy-3.jpg);
     padding-left: 0;
