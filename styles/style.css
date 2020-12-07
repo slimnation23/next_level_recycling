@@ -21,6 +21,7 @@ a {
 .navbar-brand img {
     max-width: 200px;
     width: 100%;
+    max-height: 50px;
 }
 
 .nav-link {
