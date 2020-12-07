@@ -59,8 +59,16 @@ body {
     background-size: 560px;
 }
 
+.navbar-light .navbar-nav .active>.nav-link {
+    text-decoration: underline;
+}
+
 .bin img {
     max-width: 200px;
+}
+
+.blockHeight {
+    height: 340px;
 }
 
 .map {
