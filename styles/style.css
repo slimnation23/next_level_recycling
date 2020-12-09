@@ -62,6 +62,15 @@ body {
     background-size: 100%;
 }
 
+.slider-img {
+    height: 50vh;
+    max-height: 650px;
+}
+
+.carousel-caption {
+    bottom: 50px;
+}
+
 .navbar-light .navbar-nav .active>.nav-link {
     text-decoration: underline;
 }
