@@ -34,7 +34,7 @@ a {
 }
 
 .header {
-    background: url(../img/recycling-materials-we-buy-3.jpg);
+    /* background: url(../img/recycling-materials-we-buy-3.jpg); */
     padding-left: 0;
     padding-right: 0;
     width: 100%;
