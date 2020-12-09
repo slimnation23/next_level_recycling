@@ -4,7 +4,8 @@
     padding: 0;
     margin: 0;
     font-family: 'Archivo Narrow', sans-serif;    /* color: #7b7a7a; */
-    color: rgb(83, 138, 9);
+    /* color: rgb(83, 138, 9); */
+    color: #ffffff;
 }
 
 ul {
@@ -54,10 +55,11 @@ a {
     text-align: center;
 }
 body {
-    background-image: url(../img/mr-white-pattern.jpg);
+    background-image: url(../img/photo5080408216646559986.jpg);
     background-attachment: fixed;
     background-position: center center;
-    background-size: 560px;
+    /* background-size: 560px; */
+    background-size: 100%;
 }
 
 .navbar-light .navbar-nav .active>.nav-link {
