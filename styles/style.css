@@ -3,8 +3,7 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Archivo Narrow', sans-serif;    /* color: #7b7a7a; */
-    /* color: rgb(83, 138, 9); */
+    font-family: 'Archivo Narrow', sans-serif;
     color: #ffffff;
 }
 
@@ -14,9 +13,7 @@ ul {
 
 a {
     text-decoration: none;
-    /* color: #7b7a7a; */
     color: rgb(83, 138, 9);
-
 }
 
 .navbar-brand img {
@@ -88,6 +85,27 @@ body {
 footer {
     background: #ededed;
     border-top: 1px solid #aaaaaa;
+}
+
+.footer-social-links {
+    display: flex;
+}
+
+.footer-social-links li a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color:  rgb(83, 138, 9);
+    text-align: center;
+    border-radius: 50%;
+    padding: 12px;
+    margin-left: 10px;
+    color: #fff;
+    transition: all 0.2s;
+}
+
+.footer-social-links li a:hover {
+    background-color:  rgba(83, 138, 9, 0.5);
 }
 
 @media (max-width: 450px) {
