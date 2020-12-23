@@ -154,6 +154,10 @@ header nav ul li a.active {
     color: #fff;
 }
 
+.menuQuote a:hover {
+    text-decoration: none;
+}
+
 .slider-img {
     height: 50vh;
     max-height: 650px;
