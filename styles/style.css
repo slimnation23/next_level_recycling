@@ -1,10 +1,8 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap'); */
-
 * {
     padding: 0;
     margin: 0;
     font-family: 'Archivo Narrow', sans-serif;
-    color: #ffffff;
+    color: #000000;
 }
 
 ul {
@@ -31,7 +29,6 @@ a {
 }
 
 .header {
-    /* background: url(../img/recycling-materials-we-buy-3.jpg); */
     padding-left: 0;
     padding-right: 0;
     width: 100%;
@@ -42,21 +39,118 @@ a {
     align-items: center;
 }
 
-.header img {
-    max-width: 70px;
-}
-
-.header h1 {
-    color: #ffffff;
-    font-weight: 600;
-    text-align: center;
-}
 body {
-    background-image: url(../img/photo5080408216646559986.jpg);
+    background-image: url(../img/mr-white-pattern.jpg);
     background-attachment: fixed;
     background-position: center center;
-    /* background-size: 560px; */
     background-size: 100%;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0px 100px;
+    background: #262626;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 100;
+}
+
+header .logo {
+    color: #ffffff;
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px;
+    float: left;
+    font-weight: bold;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    list-style: none;
+    position: relative;
+}
+
+header nav ul li.sub-menu::before {
+    content: '\f0d7';
+    font-family: fontAwesome;
+    position: absolute;
+    line-height: 50px;
+    color: #ffffff;
+    right: 5px;
+    cursor: pointer;
+}
+
+header nav ul li.active.sub-menu:before {
+    content: '\f0d8';
+}
+
+header nav ul li ul {
+    position: absolute;
+    left: 0;
+    background-color: #333;
+    display: none;
+}
+
+header nav ul li.active ul {
+    display: block;
+}
+
+header nav ul li ul li {
+    display: block;
+    width: 200px;
+}
+
+header nav ul li a {
+    height: 50px;
+    line-height: 50px;
+    padding: 0px 20px;
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+}
+
+header nav ul li a:hover,
+header nav ul li a.active {
+    color: #ffffff;
+    background: rgb(83, 138, 9);
+    text-decoration: none;
+}
+
+.menu-toggle {
+    float: right;
+    line-height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+}
+
+.menu-toggle i {
+    color: #fff;
+}
+
+.menuQuote {
+    position: absolute;
+    left: 150px;
+    display: flex;
+    max-width: 100px;
+    line-height: 50px;
+    padding: 0px 5px;
+    background-color: rgb(83, 138, 9);
+}
+
+.menuQuote a {
+    color: #fff;
 }
 
 .slider-img {
@@ -106,6 +200,41 @@ footer {
 
 .footer-social-links li a:hover {
     background-color:  rgba(83, 138, 9, 0.5);
+}
+
+@media (max-width: 991px) {
+    header {
+        padding: 0px 20px;
+    }
+    .menu-toggle {
+        display: block;
+    }
+    header nav {
+        position: absolute;
+        width: 100%;
+        height: calc(100vh - 50px);
+        background: #333333;
+        top: 50px;
+        left: -100%;
+        transition: 0.5s;
+    }
+    header nav.active {
+        left: 0;
+    }
+    header nav ul {
+        display: block;
+        text-align: center;
+    }
+    header nav ul li a {
+        border-bottom: 1px solid rgba(0,0,0,0.5);
+    }
+    header nav ul li.active ul {
+        position: relative;
+        background: rgb(83, 138, 9);
+    }
+    header nav ul li ul li {
+        width: 100%;
+    }
 }
 
 @media (max-width: 450px) {
