@@ -141,12 +141,13 @@ header nav ul li a.active {
 
 .menuQuote {
     position: absolute;
-    left: 150px;
+    right: 50px;
     display: flex;
     max-width: 100px;
     line-height: 50px;
     padding: 0px 5px;
     background-color: rgb(83, 138, 9);
+    display: none;
 }
 
 .menuQuote a {
@@ -206,7 +207,8 @@ footer {
     header {
         padding: 0px 20px;
     }
-    .menu-toggle {
+    .menu-toggle,
+    .menuQuote {
         display: block;
     }
     header nav {
